@@ -39,7 +39,6 @@ main{
 .row{
     padding: 10px 3px;
     gap: 3rem;
-    justify-content: center;
     }
 
 .row-box{
@@ -50,7 +49,7 @@ main{
     justify-content: center;
     font-weight: bold;
     border-radius: 8px;
-    box-shadow: 1px 1px 20px 0px grey;
+    box-shadow: 1px 1px 5px 0px grey;
 
     }
 
@@ -97,11 +96,11 @@ footer a:hover{
     transition: all 200ms ease-in;
     }
 
-@media only screen and (max-width: 575px) {
+.foot p{
+    color:rgb(81, 77, 77)
+}
 
-        main{
-             padding: 1rem 2rem;
-            }
+@media only screen and (max-width: 575px) {
 
         .nav-list{
             padding: 0.3rem 0.3rem;
@@ -121,9 +120,21 @@ footer a:hover{
             padding: 0.5rem;
             }
 
+         h2{
+             font-size: 1rem;
+         }
+
+
         .row-box p{
+            font-size: 0.6rem;
+            font-style: normal;
+            color: grey;
+        }
+
+        .row-box p.value{
             font-size: 0.8rem;
             font-style: normal;
+            color: black;
         }
 
         .row-container{
@@ -144,9 +155,17 @@ footer a:hover{
             padding: 0.3rem;
             }
 
-        .row-box p{
+
+            .row-box p{
                 font-size: 1rem;
                 font-style: normal;
+                color: grey;
+            }
+    
+            .row-box p.value{
+                font-size: 1.5rem;
+                font-style: normal;
+                color: black;
             }
 
          img.size{
@@ -167,8 +186,15 @@ footer a:hover{
           }
 
           .row-box p{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-style: normal;
+            color: grey;
+        }
+
+        .row-box p.value{
+            font-size: 3.5rem;
+            font-style: normal;
+            color: black;
         }
 
     }   
