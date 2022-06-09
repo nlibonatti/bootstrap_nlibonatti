@@ -1,0 +1,41 @@
+main{
+    padding: 1rem 4rem;
+    }
+
+.row{
+    padding: 10px 3px;
+    gap: 3rem;
+        }
+
+.row-container{
+    background-color: $colorBox;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: $shadow;
+        }
+
+.row-box{
+    display: flex;
+    gap: 4.5rem;
+    padding: 1rem;
+    background-color: white;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: $shadow;   
+        }
+
+.img{
+    text-align: center;
+    }
+
+.cripto{
+    display: flex;
+    margin: 3rem;
+    gap: 1rem;
+    }
+
+.form-container{
+  text-align:start;
+  align-items: center;
+    }

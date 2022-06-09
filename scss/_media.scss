@@ -1,0 +1,97 @@
+
+@media only screen and (max-width: 575px) {
+
+    .nav-list{
+        padding: 0.3rem 0.3rem;
+        }
+
+    .img{
+        display: none;
+        }
+
+    .row{
+         padding: 10px 3px;
+         gap: 1rem;
+            }
+
+    .row-box{
+        gap: 0.5rem;
+        padding: 0.5rem;
+        }
+
+     h2{
+         font-size: 1rem;
+       }
+
+    .row-box p{
+        font-size: 0.6rem;
+        font-style: normal;
+        color: grey;
+       }
+
+    .row-box p.value{
+        font-size: 0.9rem;
+        font-style: normal;
+        color: black;
+       }
+
+    .row-container{
+            padding: 0.2rem;
+            }
+
+    .para p{
+            font-size: small;
+            margin: 0px;
+            padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .row-box{
+        gap: 0.5rem;
+        padding: 0.3rem;
+        }
+
+    .row-box p{
+        font-size: 1rem;
+        font-style: normal;
+        color: grey;
+        }
+
+    .row-box p.value{
+        font-size: 1.5rem;
+        font-style: normal;
+        color: black;
+        }
+
+     img.size{
+        width: 300px;
+        height: 150px;
+      }
+
+      main{
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    img.size{
+        width: 650px;
+        height: 250px;
+      }
+
+      .row-box p{
+        font-size: 1.3rem;
+        font-style: normal;
+        color: grey;
+      }
+
+    .row-box p.value{
+        font-size: 3rem;
+        font-style: normal;
+        color: black;
+      }
+
+}
