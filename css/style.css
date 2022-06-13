@@ -57,12 +57,12 @@ main {
   display: -ms-flexbox;
   display: flex;
   gap: 4.5rem;
-  padding: 1rem;
-  background-color: white;
+  background-color: #ffffff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: bold;
+  padding: 1rem;
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 5px 0px grey;
           box-shadow: 0px 0px 5px 0px grey;
@@ -110,6 +110,28 @@ footer a:hover {
 
 .foot p {
   color: #514d4d;
+}
+
+.socialnet, .socialnet_t, .socialnet_w, .socialnet_i, .socialnet_tw {
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+}
+
+.socialnet_t {
+  color: blue;
+}
+
+.socialnet_w {
+  color: green;
+}
+
+.socialnet_i {
+  color: red;
+}
+
+.socialnet_tw {
+  color: grey;
 }
 
 @media only screen and (max-width: 575px) {

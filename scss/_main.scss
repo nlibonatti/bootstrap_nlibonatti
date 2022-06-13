@@ -1,28 +1,38 @@
+$rem: (
+    1r: 1rem,
+    2r: 2rem,
+    3r: 3rem,
+    4r: 4rem,
+    45r: 4.5rem
+);
+
+@mixin shadow{
+    padding: map-get($rem, 1r);
+    border-radius: 8px;
+    box-shadow: $shadow;  
+}
+
 main{
-    padding: 1rem 4rem;
+    padding: map-get($rem, 1r) map-get($rem, 4r);
     }
 
 .row{
     padding: 10px 3px;
-    gap: 3rem;
+    gap: map-get($rem, 3r);
         }
 
 .row-container{
     background-color: $colorBox;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: $shadow;
+    @include shadow;
         }
 
 .row-box{
     display: flex;
-    gap: 4.5rem;
-    padding: 1rem;
-    background-color: white;
+    gap: map-get($rem, 45r);
+    background-color: $coloBack;
     justify-content: center;
     font-weight: bold;
-    border-radius: 8px;
-    box-shadow: $shadow;   
+    @include shadow; 
         }
 
 .img{
@@ -31,11 +41,11 @@ main{
 
 .cripto{
     display: flex;
-    margin: 3rem;
-    gap: 1rem;
+    margin: map-get($rem, 3r);
+    gap: map-get($rem, 1r);
     }
 
 .form-container{
-  text-align:start;
+  text-align: start;
   align-items: center;
     }
