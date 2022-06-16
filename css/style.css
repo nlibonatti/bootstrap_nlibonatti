@@ -8,6 +8,7 @@
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: #ffffff;
+  background-image: radial-gradient(650px circle at 0% 0%, #b7e0b4, transparent 100%);
 }
 
 .nav-list {
