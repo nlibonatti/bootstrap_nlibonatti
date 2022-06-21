@@ -13,8 +13,8 @@ body {
 
 .nav-list {
   background-color: #06FF00;
-  -webkit-box-shadow: 0px 0px 5px 0px grey;
-          box-shadow: 0px 0px 5px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px grey;
+          box-shadow: 0px 0px 3px 0px grey;
   margin: 0;
   border-radius: 5px;
   font-size: smaller;
@@ -33,7 +33,6 @@ body {
 
 .nav-list .nav-item:first-child {
   margin-right: auto;
-  margin-left: 1.3rem;
 }
 
 main {
@@ -46,11 +45,11 @@ main {
 }
 
 .row-container {
-  background-color: #FFE400;
+  background-color: #f9e743;
   padding: 1rem;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 5px 0px grey;
-          box-shadow: 0px 0px 5px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px grey;
+          box-shadow: 0px 0px 3px 0px grey;
 }
 
 .row-box {
@@ -65,8 +64,8 @@ main {
   font-weight: bold;
   padding: 1rem;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 5px 0px grey;
-          box-shadow: 0px 0px 5px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px grey;
+          box-shadow: 0px 0px 3px 0px grey;
 }
 
 .img {
@@ -91,8 +90,8 @@ main {
 footer {
   background-color: #06FF00;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 5px 0px grey;
-          box-shadow: 0px 0px 5px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px grey;
+          box-shadow: 0px 0px 3px 0px grey;
   margin: 0;
   padding: 0.7rem 0.7rem;
   border-radius: 5px;
@@ -136,6 +135,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  main {
+    padding: 0 0;
+  }
   .nav-list {
     padding: 0.3rem 0.3rem;
   }
@@ -154,12 +156,12 @@ footer a:hover {
     font-size: 1rem;
   }
   .row-box p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-style: normal;
     color: grey;
   }
   .row-box p.value {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-style: normal;
     color: black;
   }
@@ -170,6 +172,9 @@ footer a:hover {
     font-size: small;
     margin: 0px;
     padding: 0px;
+  }
+  .actualiza {
+    font-size: small;
   }
 }
 
