@@ -76,7 +76,6 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 3rem;
   gap: 1rem;
 }
 
@@ -161,7 +160,7 @@ footer a:hover {
     color: grey;
   }
   .row-box p.value {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-style: normal;
     color: black;
   }
@@ -189,7 +188,7 @@ footer a:hover {
     color: grey;
   }
   .row-box p.value {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
     color: black;
   }
