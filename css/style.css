@@ -8,13 +8,13 @@
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: #ffffff;
-  background-image: radial-gradient(650px circle at 0% 0%, #b7e0b4, transparent 100%);
+  background-image: radial-gradient(650px circle at 0% 0%, #d7e5d6, transparent 100%);
 }
 
 .nav-list {
-  background-color: #06FF00;
-  -webkit-box-shadow: 0px 0px 3px 0px grey;
-          box-shadow: 0px 0px 3px 0px grey;
+  background-color: #72be76;
+  -webkit-box-shadow: 0px 0px 3px 0px #e1e9ee;
+          box-shadow: 0px 0px 3px 0px #e1e9ee;
   margin: 0;
   border-radius: 5px;
   font-size: smaller;
@@ -37,19 +37,23 @@ body {
 
 main {
   padding: 1rem 4rem;
+  background-color: whitesmoke;
+  background-image: url(../assets/dollar_bills.jpg);
+  background-size: cover;
+  background-blend-mode: color-burn;
 }
 
 .row {
-  padding: 10px 3px;
+  padding: 10px 2px;
   gap: 3rem;
 }
 
 .row-container {
-  background-color: #f9e743;
+  background-color: #e1e9ee;
   padding: 1rem;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 3px 0px grey;
-          box-shadow: 0px 0px 3px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px #e1e9ee;
+          box-shadow: 0px 0px 3px 0px #e1e9ee;
 }
 
 .row-box {
@@ -64,8 +68,8 @@ main {
   font-weight: bold;
   padding: 1rem;
   border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 3px 0px grey;
-          box-shadow: 0px 0px 3px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px #e1e9ee;
+          box-shadow: 0px 0px 3px 0px #e1e9ee;
 }
 
 .img {
@@ -86,11 +90,38 @@ main {
           align-items: center;
 }
 
+.para {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 3px 0px #e1e9ee;
+          box-shadow: 0px 0px 3px 0px #e1e9ee;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 footer {
-  background-color: #06FF00;
+  background-color: #72be76;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 3px 0px grey;
-          box-shadow: 0px 0px 3px 0px grey;
+  -webkit-box-shadow: 0px 0px 3px 0px #e1e9ee;
+          box-shadow: 0px 0px 3px 0px #e1e9ee;
   margin: 0;
   padding: 0.7rem 0.7rem;
   border-radius: 5px;
@@ -162,7 +193,7 @@ footer a:hover {
   .row-box p.value {
     font-size: 0.9rem;
     font-style: normal;
-    color: black;
+    color: #0c4f0f;
   }
   .row-container {
     padding: 0.2rem;
@@ -190,7 +221,7 @@ footer a:hover {
   .row-box p.value {
     font-size: 1.3rem;
     font-style: normal;
-    color: black;
+    color: #0c4f0f;
   }
   img.size {
     width: 300px;
@@ -214,7 +245,7 @@ footer a:hover {
   .row-box p.value {
     font-size: 2.2rem;
     font-style: normal;
-    color: black;
+    color: #0c4f0f;
   }
 }
 /*# sourceMappingURL=style.css.map */

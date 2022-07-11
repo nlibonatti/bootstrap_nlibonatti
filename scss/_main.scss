@@ -14,10 +14,14 @@ $rem: (
 
 main{
     padding: map-get($rem, 1r) map-get($rem, 4r);
+    background-color: whitesmoke;
+    background-image: url(../assets/dollar_bills.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
     }
 
 .row{
-    padding: 10px 3px;
+    padding: 10px 2px;
     gap: map-get($rem, 3r);
         }
 
@@ -48,3 +52,19 @@ main{
   text-align: start;
   align-items: center;
     }
+
+.para{
+    background-color: white;
+    @include shadow;
+
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
